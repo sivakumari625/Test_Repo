@@ -1,3 +1,4 @@
+
 package PageObjects;
 
 import org.openqa.selenium.Alert;
@@ -15,7 +16,7 @@ public class LogInPage extends base{
 	}
 	
 	//By pop=By.xpath("//div[@id='closeBtn']");
-	
+	//Coment line added
 	By pop= By.cssSelector("#closeBtn");
 By un=By.xpath("//input[@name='uid']");
 By pwd=By.xpath("//input[@name='password']");

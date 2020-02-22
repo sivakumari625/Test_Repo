@@ -13,7 +13,7 @@ public class UserHomeObjects extends base{
 			this.driver = driver;
 }
 		By welcomeUser= By.xpath("//span[@id='show-uName']");
-		By LeadsTab=By.xpath(("//a[contains(text(),'Leads')][0]"));
+		By LeadsTab=By.xpath(("//a[contains(text(),'Leads')]"));
 		public WebElement UserWelcomeNote()
 		{
 			return driver.findElement(welcomeUser);

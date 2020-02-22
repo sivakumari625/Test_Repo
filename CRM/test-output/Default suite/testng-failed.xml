@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ToTest.UserHome">
+      <class name="ToTest.TestCRMLead">
         <methods>
-          <include name="UserHomePageTest"/>
-          <include name="login"/>
+          <include name="getDriver"/>
+          <include name="ADDLEAD"/>
+          <include name="ClickOnLeadsTab"/>
+          <include name="ClickOnAddNewLead"/>
         </methods>
-      </class> <!-- ToTest.UserHome -->
+      </class> <!-- ToTest.TestCRMLead -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

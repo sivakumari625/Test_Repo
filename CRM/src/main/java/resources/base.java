@@ -30,7 +30,7 @@ public class base {
 		//driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		System.out.println("Driver Initialized");
 		String wurl = prop.getProperty("url");
-		System.out.println("url" + wurl);
+		System.out.println("url  :  " + wurl);
 		driver.get(wurl);
 		return driver;
 	}

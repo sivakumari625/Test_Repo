@@ -20,12 +20,12 @@ public class CalculatorTest {
 
     @Before
     public void beforeEachTest() {
-        System.out.println("This beforeEachTest() method is executed before each Test");
+        System.out.println("This beforeEachTest() method is executed Before each Test");
     }
 
     @After
     public void afterEachTest() {
-        System.out.println("This afterEachTest() method is exceuted after each Test");
+        System.out.println("This afterEachTest() method is exceuted After each Test");
     }
 
     @Test
